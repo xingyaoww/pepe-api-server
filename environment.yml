@@ -1,0 +1,26 @@
+name: pepe-api-server
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - python=3.8
+  - pytorch=1.11.0=py3.8_cuda11.3_cudnn8.2.0_0
+  - pytorch-mutex=1.0=cuda
+  - torchaudio=0.11.0=py38_cu113
+  - torchvision=0.12.0=py38_cu113
+  - pip:
+    - anytree==2.8.0
+    - emoji==1.7.0
+    - flask==2.1.2
+    - flask-monitoringdashboard==3.1.1
+    - gunicorn==20.1.0
+    - nltk==3.7
+    - numpy==1.23.0
+    - pandarallel==1.6.1
+    - pytorch-ignite==0.4.9
+    - pytorch-transformers==1.2.0
+    - scikit-learn==1.1.1
+    - scipy==1.8.1
+    - spacy==3.3.1
+    - transformers==4.20.1
